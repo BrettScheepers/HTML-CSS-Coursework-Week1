@@ -1,8 +1,54 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root{
+    --red: #FF0B04;
+    --blue: #0022FB;
+    --yellow: #fcf813;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(120deg, var(--red), var(--blue), var(--yellow));
+    background-repeat: cover;
+}
+
+/*Header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+    padding: 0px 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+#logo{
+    width: 150px;
+}
+
+#nav-bar{
+    padding: 10px;
+}
+
+#nav-bar a{
+    margin: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Main Article*/
+/*Latest Clothing*/
+#latest-clothing{
+    margin: 0;
+    padding: 0;
+    background-image: url("Section1Image.jpg");
+    background-position: 2600px 1333px;
+    min-height: 900px;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
